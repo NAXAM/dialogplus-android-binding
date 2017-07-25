@@ -112,12 +112,6 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Naxam.DialogPlus.Binding\Naxam.DialogPlus.Binding.csproj">
-      <Project>{a38ae37a-4c35-4c0f-8e8f-6c0a2d7b7665}</Project>
-      <Name>Naxam.DialogPlus.Binding</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\values\dimens.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -164,6 +158,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Naxam.DialogPlus.Droid\Naxam.DialogPlus.Droid.csproj">
+      <Project>{a38ae37a-4c35-4c0f-8e8f-6c0a2d7b7665}</Project>
+      <Name>Naxam.DialogPlus.Droid</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

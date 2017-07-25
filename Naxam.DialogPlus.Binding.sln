@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.DialogPlus.Binding", "Naxam.DialogPlus.Binding\Naxam.DialogPlus.Binding.csproj", "{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogPlusQs", "DialogPlusQs\DialogPlusQs.csproj", "{56D7E50A-BBE8-4422-B22A-8A5C37D783D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.DialogPlus.Droid", "Naxam.DialogPlus.Droid\Naxam.DialogPlus.Droid.csproj", "{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}.Release|Any CPU.Build.0 = Release|Any CPU
 		{56D7E50A-BBE8-4422-B22A-8A5C37D783D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{56D7E50A-BBE8-4422-B22A-8A5C37D783D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56D7E50A-BBE8-4422-B22A-8A5C37D783D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{56D7E50A-BBE8-4422-B22A-8A5C37D783D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56D7E50A-BBE8-4422-B22A-8A5C37D783D3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{56D7E50A-BBE8-4422-B22A-8A5C37D783D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38AE37A-4C35-4C0F-8E8F-6C0A2D7B7665}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
