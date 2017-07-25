@@ -3,7 +3,7 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.DialogPlus.Droid</id>
-        <version>1.11.0.1</version>
+        <version>1.11.0.2</version>
         <description>Xamarin Binding Library - Orhanobut::DialogPlus</description>
         <authors>NAXAM</authors>
         <owners>NAXAM CO.,LTD</owners>
@@ -21,6 +21,6 @@
     </metadata>
     <!-- Optional 'files' node -->
     <files>
-        <file src="Naxam.DialogPlus.Droid/bin/Release/Naxam.DialogPlus.Binding.dll" target="lib/MonoAndroid10/Naxam.DialogPlus.Droid.dll" />
+        <file src="Naxam.DialogPlus.Droid/bin/Release/Naxam.DialogPlus.Droid.dll" target="lib/MonoAndroid10/Naxam.DialogPlus.Droid.dll" />
     </files>
 </package>
